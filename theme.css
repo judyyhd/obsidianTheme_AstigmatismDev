@@ -7,4 +7,75 @@ description: A low contrast theme for developers with astigmatism.
 */
 
 body {
-  
+    --background-primary: #293845;
+    --background-secondary: #34506A;
+    --text-normal: #cdd1c4;
+    --text-accent: #CDEB84;
+    --h1-color: #E0DA9D;
+    --h2-color: #E0C69D;
+    --h3-color: #E0B29D;
+}
+
+.cm-s-obsidian .cm-header-1 {
+    color: var(--h1-color);
+}
+
+.cm-s-obsidian .cm-header-2 {
+    color: var(--h2-color);
+}
+
+.cm-s-obsidian .cm-header-3 {
+    color: var(--h3-color);
+}
+
+/* Interface Font */
+body, 
+.workspace {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /* base UI font size */
+}
+
+.nav-file-title,
+.nav-folder-title {
+    font-size: 18px; /* larger font for navigation titles */
+}
+
+.workspace-leaf-content .view-header-title {
+    font-size: 16px; /* content font size */
+}
+
+.workspace-tab-header-inner {
+    font-size: 13px; /* smaller font for tab headers */
+    font-weight: 500; /* medium weight for better readability */
+}
+
+.setting-item-name {
+    font-size: 18px; /* settings item name */
+    font-weight: 500; /* medium weight for better readability */
+}
+
+.setting-item-description {
+    font-size: 16px; /* settings item description */
+}
+
+.breadcrumbs {
+    font-size: 13px; /* smaller font for breadcrumbs */
+}
+/* Main Text Font */
+.markdown-preview-view,
+.cm-s-obsidian {
+  font-family: 'Iosevka', serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Code Font */
+code,
+pre,
+.cm-inline-code {
+  font-family: 'Maple Mono', monospace;
+  font-size: 16px;
+  background-color: #2e2e2e;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
