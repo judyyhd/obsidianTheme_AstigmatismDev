@@ -2,7 +2,7 @@
   "name": "Astigmatism Dev",
   "author": "Judy Yang",
   "repo": "judyyhd/obsidianTheme_AstigmatismDev",
-  "theme": "theme.css",
+  "theme": true,
   "version": "1.0.0",
   "minAppVersion": "0.15.0"
 }
