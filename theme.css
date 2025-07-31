@@ -37,7 +37,7 @@ body,
 
 .nav-file-title,
 .nav-folder-title {
-    font-size: 18px; /* larger font for navigation titles */
+    font-size: 16px; /* larger font for navigation titles */
 }
 
 .workspace-leaf-content .view-header-title {
@@ -50,12 +50,12 @@ body,
 }
 
 .setting-item-name {
-    font-size: 18px; /* settings item name */
+    font-size: 16px; /* settings item name */
     font-weight: 500; /* medium weight for better readability */
 }
 
 .setting-item-description {
-    font-size: 16px; /* settings item description */
+    font-size: 14px; /* settings item description */
 }
 
 .breadcrumbs {
