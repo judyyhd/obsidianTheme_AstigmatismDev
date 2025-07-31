@@ -37,11 +37,11 @@ body,
 
 .nav-file-title,
 .nav-folder-title {
-    font-size: 16px; /* larger font for navigation titles */
+    font-size: 14px; /* larger font for navigation titles */
 }
 
 .workspace-leaf-content .view-header-title {
-    font-size: 16px; /* content font size */
+    font-size: 14px; /* content font size */
 }
 
 .workspace-tab-header-inner {
@@ -61,6 +61,24 @@ body,
 .breadcrumbs {
     font-size: 13px; /* smaller font for breadcrumbs */
 }
+
+/* Sidebar folder navigation background for astigmatism accessibility */
+.workspace {
+    background-color: #22313f;
+}
+
+/* Softer, less bright link colors with good contrast */
+a,
+.cm-s-obsidian span.cm-link,
+.markdown-preview-view .internal-link {
+    color: #A5BCE8;
+}
+
+a:hover,
+.cm-s-obsidian span.cm-link:hover,
+.markdown-preview-view .internal-link:hover {
+    color: #C2D3FF;
+}
 /* Main Text Font */
 .markdown-preview-view,
 .cm-s-obsidian {
@@ -78,4 +96,20 @@ pre,
   background-color: #2e2e2e;
   padding: 0.2em 0.4em;
   border-radius: 4px;
+}
+
+/* Match tab bar background to theme */
+.workspace-tabs {
+  background-color: var(--background-primary);
+  border-bottom: none;
+}
+
+.workspace-tab-header-container {
+  background-color: var(--background-primary);
+  border-bottom: none;
+}
+
+.workspace-tab-header-inner {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
 }
